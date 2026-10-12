@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171412">
+  <meta name="description" content="Cinema Club FIO. Proyecto dedicado a los estudiantes de la UCI y, en especial, a los estudiantes de la Facultad de Ingeniería Organizacional.">
+  <title>Cinema Club FIO</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="institution-logos">
+        <img src="assets/logo-universidad.jpg" alt="Logo de la Universidad de las Ciencias Informáticas">
+        <img src="assets/logo-facultad.jpg" alt="Logo de la Facultad de Ingeniería Organizacional">
+      </div>
+      <div class="brand">
+        <p class="brand-kicker">UCI · FIO</p>
+        <h1>Cinema Club FIO</h1>
+        <p class="brand-description">Proyecto dedicado a los estudiantes de la UCI y, en especial, a los estudiantes de la Facultad de Ingeniería Organizacional</p>
+      </div>
+      <div class="masthead-index">CARTELERA<br>UNIVERSITARIA</div>
+    </div>
+    <div class="film-rule" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <section class="intro" aria-label="Presentación">
+      <div class="intro-overlay"></div>
+      <div class="intro-content">
+        <p class="eyebrow">CINEMA CLUB · FIO</p>
+        <h2>La cartelera</h2>
+        <p class="intro-copy">Selección cinematográfica</p>
+        <a class="outline-link" href="#cartelera">Consultar películas</a>
+      </div>
+      <div class="frame-number" aria-hidden="true">FIO / 001</div>
+    </section>
+
+    <section id="cartelera" class="catalogue">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ARCHIVO DE PROYECCIONES</p>
+          <h2>Cartelera</h2>
+        </div>
+        <p id="movie-count" class="movie-count">0 películas</p>
+      </div>
+
+      <div class="catalogue-tools">
+        <label class="search-label" for="search-input">Buscar película</label>
+        <input id="search-input" type="search" placeholder="Título o director" autocomplete="off">
+        <label class="filter-label" for="genre-filter">Género</label>
+        <select id="genre-filter">
+          <option value="todos">Todos los géneros</option>
+        </select>
+      </div>
+
+      <div id="movies-grid" class="movies-grid" aria-live="polite">
+        <p class="loading-message">Cargando cartelera</p>
+      </div>
+      <p id="empty-message" class="empty-message" hidden>No hay películas que coincidan con la búsqueda.</p>
+    </section>
+
+    <section class="closing-band">
+      <p class="eyebrow">CINEMA CLUB FIO</p>
+      <p>Proyecto dedicado a los estudiantes de la UCI y, en especial, a los estudiantes de la Facultad de Ingeniería Organizacional</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Cinema Club FIO</span>
+    <span>UCI · Facultad de Ingeniería Organizacional</span>
+  </footer>
+
+  <dialog id="movie-dialog" class="movie-dialog">
+    <button id="close-dialog" class="close-dialog" type="button" aria-label="Cerrar">Cerrar</button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
