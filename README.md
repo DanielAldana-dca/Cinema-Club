@@ -31,26 +31,3 @@ Guarda los carteles dentro de `assets/carteles/`. Por ejemplo, si el archivo es 
 
 Las rutas distinguen mayúsculas y minúsculas al publicarse en GitHub Pages.
 
-## Ejecutar localmente
-
-No abras `index.html` directamente con `file://`, porque el navegador puede bloquear la lectura del JSON. Puedes abrir la carpeta con Visual Studio Code y usar la extensión Live Server, o ejecutar un servidor estático desde la carpeta del proyecto:
-
-```bash
-python -m http.server 8000
-```
-
-Después abre `http://localhost:8000`.
-
-## Publicar en GitHub Pages
-
-1. Sube el contenido de esta carpeta al repositorio.
-2. En GitHub, abre **Settings → Pages**.
-3. En **Build and deployment**, elige **Deploy from a branch**.
-4. Selecciona la rama principal y la carpeta `/ (root)`.
-5. Guarda los cambios.
-
-Cada vez que edites el JSON o agregues carteles, sube los cambios al repositorio. GitHub Pages actualizará la cartelera.
-
-## Nota
-
-La web es estática y no incluye login ni backend. El catálogo se modifica editando el JSON y publicando los cambios en GitHub.
