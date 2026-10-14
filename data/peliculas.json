@@ -10,7 +10,7 @@
     "director": "Phil Lord, Christopher Miller",
     "actores": "Ryan Gosling, Sandra Hüller, James Ortiz, Lionel Boyce, Ken Leung, Milana Vayntrub",
     "sinopsis": "Ryland Grace, un profesor de ciencias, despierta solo en una nave espacial sin recordar quién es ni cómo llegó allí. Poco a poco descubre que debe resolver el misterio de una sustancia que está provocando la muerte del Sol y amenaza con extinguir la vida en la Tierra.",
-    "imagen": "assets/carteles/sin-cartel.svg",
+    "imagen": "assets/carteles/hail mary.jpg",
     "trailer": "",
     "lugar": ""
   },
@@ -24,7 +24,7 @@
       "director": "Damien Chazelle",
       "actores": "Miles Teller, J.K. Simmons, Paul Reiser",
       "sinopsis": "Un joven baterista de jazz se matricula en un conservatorio de élite y es sometido a un exigente y abusivo instructor.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/Whiplash.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -38,7 +38,7 @@
       "director": "Tomás Gutiérrez Alea",
       "actores": "Sergio Corrieri, Daisy Granados, Eslinda Núñez",
       "sinopsis": "Un burgués intelectual decide quedarse en Cuba tras la Revolución y observa con distancia crítica la transformación del país.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/Memories.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -51,7 +51,7 @@
     "director": "Arturo Sotto Díaz",
     "actores": "Armando Miguel Gómez, Caleb Casas, Luis Alberto García, Yara Massiel, Yadier Fernández, Amelia Fernández, Claudia Álvarez",
     "sinopsis": "En agosto de 1994, en un pequeño poblado cubano, Azúcar debe demostrar su inocencia tras la muerte de sus padres. Ante un fiscal y una abogada, reconstruye la historia de amor, rivalidad y tragedia que marcó la vida de su familia.",
-    "imagen": "assets/carteles/sin-cartel.svg",
+    "imagen": "assets/carteles/mantis.jpg",
     "trailer": "",
     "lugar": ""
   },
@@ -65,7 +65,7 @@
     "director": "Kristoffer Borgli",
     "actores": "Zendaya, Robert Pattinson, Alana Haim, Mamoudou Athie, Hailey Gates",
     "sinopsis": "Una pareja comprometida se prepara para su boda, pero una revelación inesperada pone a prueba su relación durante la semana previa a la ceremonia.",
-    "imagen": "assets/carteles/sin-cartel.svg",
+    "imagen": "assets/carteles/The Drama.jpg",
     "trailer": "",
     "lugar": ""
   },
@@ -79,7 +79,7 @@
       "director": "Pedro Almodóvar",
       "actores": "Javier Cámara, Darío Grandinetti, Leonor Watling",
       "sinopsis": "Dos hombres cuidan a dos mujeres en coma y desarrollan una relación marcada por la soledad, el amor y la tragedia.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/hable con ella.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -93,7 +93,7 @@
       "director": "David Leitch",
       "actores": "Brad Pitt, Joey King, Aaron Taylor-Johnson",
       "sinopsis": "Cinco asesinos se encuentran en un tren bala de Tokio y descubren que sus misiones están conectadas.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/Bullet Train.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -107,7 +107,7 @@
     "director": "Javier Ambrossi, Javier Calvo",
     "actores": "Guitarricadelafuente, Miguel Bernardeau, Carlos González, Milo Quifes, Lola Dueñas, Penélope Cruz, Glenn Close",
     "sinopsis": "Tres historias conectadas, ambientadas en distintas épocas, exploran el deseo, la sexualidad, el dolor y la herencia. Sus protagonistas están vinculados por una historia que dialoga con una de las obras inacabadas de Federico García Lorca.",
-    "imagen": "assets/carteles/sin-cartel.svg",
+    "imagen": "assets/carteles/bola negra.jpg",
     "trailer": "",
     "lugar": ""
   },
@@ -121,7 +121,7 @@
       "director": "Alfonso Cuarón",
       "actores": "Maribel Verdú, Gael García Bernal, Diego Luna",
       "sinopsis": "Dos adolescentes y una mujer mayor emprenden un viaje por México que se convierte en un rito de paso.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/tu mama.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -135,7 +135,7 @@
       "director": "Joachim Trier",
       "actores": "Renate Reinsve, Anders Danielsen Lie, Herbert Nordrum",
       "sinopsis": "Una mujer joven en Oslo navega entre amores y decisiones mientras intenta descubrir quién es.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/worst person.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -149,7 +149,7 @@
     "director": "Yorgos Lanthimos",
     "actores": "Emma Stone, Jesse Plemons, Aidan Delbis, Stavros Halkias, Alicia Silverstone",
     "sinopsis": "Dos hombres obsesionados con las teorías conspirativas secuestran a la directora de una importante empresa farmacéutica, convencidos de que es una extraterrestre que pretende destruir el planeta.",
-    "imagen": "assets/carteles/sin-cartel.svg",
+    "imagen": "assets/carteles/Bugonia.jpg",
     "trailer": "",
     "lugar": ""
   },
@@ -163,7 +163,7 @@
       "director": "Wes Anderson",
       "actores": "Ralph Fiennes, Tony Revolori, Saoirse Ronan",
       "sinopsis": "Un conserje legendario y su joven botones se ven envueltos en el robo de una pintura y una disputa familiar.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/The Grand Budapest Hotel.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -177,7 +177,7 @@
     "director": "David Freyne",
     "actores": "Elizabeth Olsen, Miles Teller, Callum Turner, Da'Vine Joy Randolph, John Early, Olga Merediz",
     "sinopsis": "Después de morir, Joan llega a un más allá donde tiene una semana para decidir con quién pasará la eternidad: con el hombre con quien compartió su vida o con su primer amor, que murió joven y lleva décadas esperándola.",
-    "imagen": "assets/carteles/sin-cartel.svg",
+    "imagen": "assets/carteles/Eternity.jpg",
     "trailer": "",
     "lugar": ""
   },
@@ -191,7 +191,7 @@
       "director": "Alexander Payne",
       "actores": "Paul Giamatti, Da'Vine Joy Randolph, Dominic Sessa",
       "sinopsis": "Un profesor gruñón se queda cuidando a estudiantes durante las vacaciones de invierno y forma un vínculo inesperado.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/Holdovers.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -205,7 +205,7 @@
       "director": "Luca Guadagnino",
       "actores": "Zendaya, Josh O'Connor, Mike Faist",
       "sinopsis": "Un triángulo amoroso y deportivo rodea a una tenista convertida en entrenadora y a dos rivales.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/Challengers.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -219,7 +219,7 @@
       "director": "Wes Anderson",
       "actores": "Owen Wilson, Adrien Brody, Jason Schwartzman",
       "sinopsis": "Tres hermanos distanciados viajan en tren por India para reencontrarse tras la muerte de su padre.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/The Darjeeling Limited.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -233,7 +233,7 @@
       "director": "Alejandro Amenábar",
       "actores": "Ana Torrent, Fele Martínez, Eduardo Noriega",
       "sinopsis": "Una estudiante de cine encuentra una cinta snuff y se adentra en una investigación peligrosa.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/Tesis.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -247,7 +247,7 @@
       "director": "Emerald Fennell",
       "actores": "Barry Keoghan, Jacob Elordi, Rosamund Pike",
       "sinopsis": "Un estudiante becado se obsesiona con un compañero adinerado y se infiltra en su excéntrica familia.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/Saltburn.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -261,7 +261,7 @@
       "director": "Alejandro González Iñárritu",
       "actores": "Gael García Bernal, Emilio Echevarría, Goya Toledo",
       "sinopsis": "Tres historias se entrelazan en Ciudad de México a partir de un accidente automovilístico.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/Amores Perros.jpg",
       "trailer": "",
       "lugar": ""
     },
@@ -275,7 +275,7 @@
       "director": "Paul Thomas Anderson",
       "actores": "Mark Wahlberg, Julianne Moore, Burt Reynolds",
       "sinopsis": "Un joven actor de cine para adultos asciende y cae en la industria californiana de los años setenta y ochenta.",
-      "imagen": "assets/carteles/sin-cartel.svg",
+      "imagen": "assets/carteles/boogie.jpg",
       "trailer": "",
       "lugar": ""
     }
