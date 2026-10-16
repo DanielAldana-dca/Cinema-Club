@@ -338,3 +338,171 @@ a { color: inherit; }
   .movies-grid { grid-template-columns: 1fr; }
   .poster { aspect-ratio: 4 / 5; }
 }
+
+
+/* Película destacada */
+.intro-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.whatsapp-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 46px;
+  padding: 12px 20px;
+  border: 1px solid var(--gold);
+  background: var(--wine);
+  color: var(--paper-light);
+  text-decoration: none;
+  font-family: var(--mono);
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  line-height: 1.4;
+  transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+.whatsapp-link:hover {
+  background: var(--gold);
+  color: var(--ink);
+  transform: translateY(-2px);
+}
+.whatsapp-link:focus-visible,
+.outline-link:focus-visible,
+.details-button:focus-visible,
+.poster-button:focus-visible,
+.featured-poster-button:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+.featured-section {
+  padding: 68px 24px 74px;
+  color: var(--paper-light);
+  background:
+    linear-gradient(115deg, rgba(27, 19, 17, .98), rgba(65, 29, 27, .96)),
+    url("../assets/fondo-inferior.svg") center / cover;
+  border-bottom: 1px solid var(--gold);
+}
+.featured-inner { width: min(1120px, 100%); margin: 0 auto; }
+.featured-heading { margin-bottom: 25px; }
+.featured-heading .eyebrow { color: #d8b877; margin-bottom: 8px; }
+.featured-heading h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4.5vw, 3.7rem);
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+.featured-card {
+  display: grid;
+  grid-template-columns: minmax(250px, .78fr) minmax(0, 1.22fr);
+  gap: clamp(26px, 4vw, 52px);
+  align-items: start;
+  padding: clamp(20px, 3vw, 34px);
+  background: rgba(247, 240, 226, .06);
+  border: 1px solid rgba(212, 183, 122, .55);
+  box-shadow: 0 18px 48px rgba(0,0,0,.18);
+}
+.featured-poster-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid rgba(212,183,122,.55);
+  background: #211b17;
+  cursor: pointer;
+  overflow: hidden;
+}
+.featured-poster {
+  display: block;
+  width: 100%;
+  max-height: 650px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  transition: transform .35s ease;
+}
+.featured-poster-button:hover .featured-poster { transform: scale(1.025); }
+.featured-info { min-width: 0; }
+.featured-badge {
+  display: inline-block;
+  margin: 0 0 16px;
+  padding: 6px 10px;
+  border: 1px solid var(--gold);
+  color: #e3c88d;
+  font-size: .65rem;
+  text-transform: uppercase;
+  letter-spacing: .13em;
+}
+.featured-info .movie-genre { color: #d8b877; }
+.featured-title {
+  margin: 0 0 18px;
+  font-family: var(--serif);
+  font-size: clamp(2.2rem, 4.5vw, 4.1rem);
+  line-height: 1.06;
+  letter-spacing: -.04em;
+  overflow-wrap: anywhere;
+}
+.featured-synopsis {
+  margin: 0 0 22px;
+  color: #dfd2be;
+  font-family: var(--serif);
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+.featured-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 22px;
+  margin: 0;
+  border-top: 1px solid rgba(212,183,122,.35);
+}
+.featured-fact {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(212,183,122,.22);
+  min-width: 0;
+}
+.featured-fact dt {
+  margin-bottom: 3px;
+  color: #d8b877;
+  font-size: .62rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.featured-fact dd {
+  margin: 0;
+  color: #f7f0e2;
+  font-size: .76rem;
+  overflow-wrap: anywhere;
+}
+.featured-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 23px; }
+.featured-actions .details-button { width: auto; margin-top: 0; padding: 12px 16px; color: #f7eddb; border-color: var(--gold); }
+.featured-actions .details-button:hover { background: var(--gold); color: var(--ink); }
+.trailer-link {
+  display: inline-block;
+  padding: 11px 14px;
+  color: #e3c88d;
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+.whatsapp-link--footer { margin-top: 24px; }
+.trailer-button { display: inline-block; width: auto; margin-top: 16px; text-decoration: none; text-align: center; }
+
+@media (max-width: 760px) {
+  .featured-section { padding: 48px 14px 52px; }
+  .featured-card { grid-template-columns: minmax(0, 1fr); gap: 24px; padding: 18px; }
+  .featured-poster-button { width: min(100%, 380px); margin: 0 auto; }
+  .featured-poster { max-height: 540px; }
+  .featured-title { font-size: clamp(2rem, 9vw, 3.2rem); }
+  .featured-facts { grid-template-columns: 1fr 1fr; }
+  .intro-actions { flex-direction: column; }
+  .intro-actions a { width: min(100%, 330px); }
+}
+@media (max-width: 420px) {
+  .featured-facts { grid-template-columns: 1fr; }
+  .featured-fact { padding: 10px 0; }
+}
